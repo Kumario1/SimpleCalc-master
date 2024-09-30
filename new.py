@@ -12,7 +12,7 @@ def button_click(number):
 root = tk.Tk()
 root.title("Simple Calculator")
 
-
+s = 12
 entry = tk.Entry(root, width=20, font=('Arial', 14))
 entry.grid(row=0, column=0, columnspan=4, padx=5, pady=5)
 
